@@ -1,15 +1,13 @@
 import styled from "styled-components";
-const Createboard = () => {
-    return (
-        <Form>
-            <input type="text"/>
-            <input type="text"/>
-        </Form>
-    )
-}
+const Createboard = ():JSX.Element => {
+  return (
+    <Form>
+      <input type="text" />
+      <input type="text" />
+    </Form>
+  );
+};
 
-export default Createboard
+export default Createboard;
 
-const Form = styled.form`
-    
-`
+const Form = styled.form``;
