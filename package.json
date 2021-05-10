@@ -13,8 +13,9 @@
   "lint-staged": {
     "pages/*": [
       "prettier --write ./pages",
-      " prettier --write ./test",
-      "eslint --fix"
+      "prettier --write ./test",
+      "eslint --fix",
+      "git add ."
     ]
   },
   "dependencies": {

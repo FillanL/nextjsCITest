@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-const Footer = ():JSX.Element => {
+const Footer = ():ReactElement => {
     return (
         <div>
             footer

@@ -1,5 +1,6 @@
+import { ReactElement } from "react";
 import styled from "styled-components";
-const Createboard = ():JSX.Element => {
+const Createboard = ():ReactElement => {
   return (
     <Form>
       <input type="text" />

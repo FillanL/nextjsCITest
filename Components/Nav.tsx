@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Link from "next/link";
-const Nav = ():JSX.Element => {
+import { ReactElement } from "react";
+const Nav = ():ReactElement => {
   return (
     <NavContainer>
       <NavUList>
